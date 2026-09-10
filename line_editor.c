@@ -34,7 +34,7 @@ void insertLine(Document *doc, int lineNumber, char text[])
 {
     if (lineNumber < 1 || lineNumber > doc->count + 1)
     {
-        printf("Error: Please enter a valid number ");
+        printf("Error: Please enter a valid number .\n");
         return;
     }
 
@@ -76,7 +76,7 @@ void deleteLine(Document *doc, int lineNumber)
 
     if (lineNumber < 1 || lineNumber > doc->count)
     {
-        printf("Invalid line number.\n");
+        printf("Error": please enter a valid number .\n");
         return;
     }
 
