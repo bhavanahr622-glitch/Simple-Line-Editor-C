@@ -14,7 +14,7 @@ through a menu-based interface.
 
 ## Data Structure Used
 
-The project uses a dynamic array of strings.
+The project makes use of concept of dynamic array of strings.
 
 ```c
 typedef struct
