@@ -177,7 +177,7 @@ void loadDocument(Document *doc, char filename[])
 
     fclose(fp);
 
-    printf("Document loaded.\n");
+    printf("\n-----The document got loaded--------\n");
 }
 
 
