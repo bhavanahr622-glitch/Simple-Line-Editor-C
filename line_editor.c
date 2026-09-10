@@ -119,7 +119,7 @@ void saveDocument(Document *doc, char filename[])
 
     if (fp == NULL)
     {
-        printf("Cannot open file.\n");
+        printf("This file cannot be opened.\n");
         return;
     }
 
